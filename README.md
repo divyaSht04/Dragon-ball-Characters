@@ -1,8 +1,21 @@
-# React + Vite
+# Dragon Ball Character Info App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that allows users to fetch and display information about Dragon Ball characters by entering their ID. The app fetches character data from the Dragon Ball API and displays it in a clean, responsive UI.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetch and display Dragon Ball character information based on user input.
+- Displays character image, name, gender, ki, max ki, race, and description.
+- Error handling for invalid character IDs.
+
+## Technologies Used
+
+- React
+- CSS (Module)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or later)
+- npm (version 6 or later) or yarn
